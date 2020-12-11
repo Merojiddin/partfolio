@@ -1,0 +1,251 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Put here your site title -->
+    <title>Merojiddin Akhmedov | Developer</title>
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Required librarys -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: false });
+    </script>
+
+    <!-- Remove this script once you setup your custom portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Follow the HTML instructions to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <div id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title" class="load-hidden">
+          Hi, my name is <span class="text-color-main">Merojiddin</span>
+          <br />
+          I'm a Web Developer.
+        </h1>
+        <p class="hero-cta" class="load-hidden">
+          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        </p>
+      </div>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">
+          About me
+        </h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image">
+              <img
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="./assets/Annotation 2020-07-06 174204.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info">
+              <p class="about-wrapper__info-text">
+                I am a Fronted web-developer specializing in JavaScript. Self-taught with lots of hand-on experience in different kind of freelancing projects and in companies as a front-end web developer by using JavaScript and its frameworks.
+              </p>
+              <p class="about-wrapper__info-text">
+                merojiddin.akhmedov@mail.ru
+              </p>
+              <span class="d-flex mt-3">
+                <a target="assets/profile.jpg" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1GI-YPKHH3V7B32XdvTIj7TjIZc0fgnad/view?usp=sharing">
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">
+            Projects
+          </h2>
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Tantora</h3>
+                <div>
+                  <p class="mb-4">
+                    It`s a website for online exhibitions. This website is writen mainly with
+                    Typescript React. In there you can see using of graphql for saving backend data
+                    and so on ... 
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="http://tantora.io/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://gitlab.com/tantora/tantora_front">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="http://tantora.io/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/hipsweet.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="http://my-coronatracker.surge.sh/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/covid.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Corona Tracker</h3>
+                <div>
+                  <p class="mb-4">
+                    This website is writen mostly with the help of JavaScript React.
+                    In there I`ve used different kind of charts and the informations was gotten 
+                    with an api which is always with the last updates.
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="http://my-coronatracker.surge.sh/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Merojiddin/Corona-Tracker">
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Online Chat</h3>
+                <div>
+                  <p class="mb-4">
+                    It is a simple real time chat where you can create a room for you and your friends
+                    then have a nice conversation with each other. This code is also mainly writen in JavaScript. 
+                    And Socket.io which is allowing us to have online chat with less difficulties
+                  </p>
+                </div>
+                <a target="_blank" class="cta-btn cta-btn--hero" href="http://my-react-online-chat.surge.sh/">
+                  See Live
+                </a>
+                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/Merojiddin/my_online_chat">
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image">
+                <a href="http://my-react-online-chat.surge.sh/" target="_blank">
+                  <div data-tilt class="thumbnail rounded">
+                    <img class="img-fluid" src="./assets/chat.png" />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">
+          Contact
+        </h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+            +(86) 1327 001 93 02
+          </p>
+          <a
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="tell://+8613270019302"
+            >Call to Action</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <!-- <a href="#!" target="_blank">
+            <i class="fa fa-twitter fa-inverse"></i>
+          </a>
+          <a href="#!" target="_blank">
+            <i class="fa fa-codepen fa-inverse"></i>
+          </a> -->
+          <a href="https://www.linkedin.com/in/merojiddin-akhmedov-aa5b401b2" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a href="https://github.com/Merojiddin" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+  </body>
+</html>
